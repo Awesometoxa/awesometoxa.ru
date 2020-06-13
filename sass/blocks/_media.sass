@@ -1,0 +1,383 @@
+@media ( max-width: 1200px )
+    *
+        font-size: 14px
+    .container
+        width: 960px
+    .about__item
+        width: 360px
+    .timer__item
+        width: 80px
+        height: 80px
+    .contact-form
+            
+
+@media ( max-width: 991px )
+    .container
+        width: 720px
+    .header a img
+        margin-top: 8px
+        height: 80%
+    .promo
+        min-height: 340px
+        margin-top: 0
+        &__img
+            width: 330px
+        &__descr
+            width: 318px
+            margin-left: 0
+            h1
+                font-size: 40px 
+                line-height: 40px
+    .about
+        padding-bottom: 0
+        &__wrapper
+            margin-top: 30px
+        &__item
+            width: 285px
+            &-img
+                width: 120px
+                height: 120px
+            &-list-article
+                font-size: 14px
+                margin-bottom: 2px
+    .timer
+        padding: 40px 0
+    .tab
+        font-size: 14px
+    .tabContent
+        min-height: 190px
+        margin-top: 20px
+        &__title
+            font-size: 14px
+        &__text 
+            div
+                font-size: 13px
+            span
+                font-size: 13px
+    .button
+        width: 140px
+        height: 30px
+        &_bottom
+            display: none
+    .skills
+        min-height: 370px
+        padding: 20px 0
+        &__wrapper
+            margin-top: 20px
+    .carousel
+        &__title
+            font-size: 22px
+        &__img
+            margin-top: 0
+            width: 200px
+        &__prev
+            top: 100px
+            left: 20px
+        &__next
+            top: 100px
+            right: 20px
+    .portfolio__item
+        width: 33%
+    .contacts
+        padding-bottom: 0
+    .social
+        min-height: 50px
+    .pageup
+        width: 50px
+        height: 50px
+        bottom: 20px
+        right: 20px
+    .contact-form
+        width: 240px
+        &-title
+            margin-bottom: 10px
+        input
+            margin-bottom: 5px
+
+@media ( max-width: 767px )
+    *
+        font-size: 12px
+    .container
+        width: 540px
+    .title
+        font-size: 24px
+    .subtitle
+        width: 70%
+        margin: 0 auto
+        margin-top: 10px
+        text-align: center
+        font-size: 14px
+    .button
+        widows: 130px
+        height: 26px
+        font-size: 11px
+    .header
+        position: fixed
+        z-index: 4
+        top: 0
+        left: 0
+        height: 40px
+        background: rgba(0, 0, 0, 1)
+    .header__img
+        display: none
+    .pageup
+        display: none
+    .nav
+        position: relative
+    .nav__list
+        z-index: 2
+        margin: 0
+        padding: 0
+        position: fixed
+        top: 0
+        left: -100%
+        width: 100%
+        height: 100vh
+        flex-direction: column
+        justify-content: start
+        background-color: rgba(0,0,0,0.9)
+        transition: 0.6s all
+        &_active
+            left: 0
+    .nav__item
+        margin: 0 auto
+        margin-top: 30px
+        a
+            font-size: 20px
+    .nav__logo
+        display: block
+        margin: 0 auto
+        width: 40px
+        margin-top: 30px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 15px
+        width: 30px
+        span
+            display: block
+            margin-bottom: 5px
+            height: 2px
+            width: 100%
+            background-color: white
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(5px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(5px) rotate(45deg)
+    .logo_mobile
+        display: block
+        position: absolute
+        top: 5px
+        left: 10px
+        height: 40px
+        margin-top: 0
+    .promo
+        margin-top: 50px
+        min-height: 280px
+        &__img
+            margin-top: 20px
+            width: 230px
+            height: 230px
+        &__descr
+            margin-top: 60px
+            #last
+                line-height: 14px
+    .about  
+        margin-top: -20px
+        padding-top: 60px
+        &__item
+            min-height: 120px
+            padding: 0
+            flex-direction: row
+            width: 450px
+            justify-content: start
+            &-img
+                width: 90px
+                height: 90px
+            &-descr
+                text-align: center
+                margin-left: 40px
+                width: 290px
+    .timer
+        &__item
+            width: 60px
+            height: 60px
+        &__num
+            font-size: 32px
+        &__descr
+            font-size: 14px 
+    .tab
+        font-size: 11px
+    .tabContent
+        flex-direction: column
+        border: none
+        &__img
+            width: 100%
+            img
+                display: block
+                margin: 0 auto
+                width: 50%
+        &__descr
+            margin-top: 10px
+            width: 100%
+        &__title
+            margin-bottom: 5px
+        &__text
+            margin-top: 5px
+            text-align: center
+            div
+                margin-bottom: 5px
+    .skills
+        min-height: 320px
+        padding: 0
+    .products
+        background: linear-gradient(to top,#fff -8%,#000 80%)
+        margin-top: -20px
+        padding-top: 60px
+        &__wrapper
+            display: none
+        &__wrapper_mobile
+            display: block
+    .carousel
+        &__img
+            width: 170px
+        &__title
+            font-size: 20px
+        &__prev
+            top: 80px
+            left: -30px
+        &__next
+            top: 80px
+            right: -30px
+    .portfolio
+        margin-top: -20px
+        padding-top: 60px
+        &__title
+            font-size: 13px
+            margin-bottom: 8px
+        &__item
+            width: 35%
+            margin: 0 10px
+            margin-bottom: 10px
+            img
+                width: 50%
+    .contacts
+        margin-top: -20px
+        padding-top: 60px
+    
+@media ( max-width: 575px )
+    .container
+        width: 100%
+    .modal-form
+        span
+            font-size: 40px
+    .button
+        font-size: 10px
+        margin-top: 40px
+    .title
+        font-size: 20px
+    .subtitle
+        font-size: 13px
+    .logo_mobile
+        margin: 0 auto
+    .promo
+        padding: 0 5px
+        &__header
+            margin: 0 auto
+        &__wrapper
+            margin: 0 auto
+            display: flex
+            flex-direction: column
+            div
+                font-size: 16px
+            h1
+                font-size: 34px
+                line-height: 28px
+            div #last
+                font-size: 16px
+        &__img
+            margin: 0 auto
+            width: 200px
+            height: 200px
+        &__descr
+            width: 270px
+            margin-top: 0
+    .about
+        &__wrapper
+            width: 90%
+            margin-top: 20px
+        &__item
+            width: 100%
+            display: flex
+            flex-direction: column
+            margin-bottom: 20px
+            &-list
+                margin-top: 5px
+                &-article
+                    font-size: 13px
+                    margin-bottom: 0
+                    a
+                        font-size: 13px
+            &-descr
+                margin: 0 auto
+                width: 100%
+    .timer
+        padding: 30px 0
+        &__wrapper
+            width: 90%
+        &__item
+            width: 48px
+            height: 48px
+            border-radius: 10px
+        &__num
+            font-size: 24px
+        &__descr
+            font-size: 13px
+    .products
+        background: linear-gradient(to top,#fff 0%,#000 24%)
+        &__wrapper_mobile
+            &-img
+                width: 80%
+            &-descr
+                width: 80%
+                // text-align: left
+    .skills
+        min-height: 260px
+    .carousel
+        &__img
+            width: 130px
+        &__prev
+            width: 45px
+            height: 45px
+            top: 70px
+        &__next
+            width: 45px
+            height: 45px
+            top: 70px
+    .portfolio
+        &__wrapper
+            margin-top: 20px
+        &__item
+            width: 200px
+    .social__link
+        width: 35px
+    .footer
+        height: 50px
+        padding: 5px 0
+        &__title
+            font-size: 10px
+            margin-bottom: 3px
+        &__subtitle
+            font-size: 10px
+            margin-top: 5px
+        &__date
+            font-size: 10px
+    
+    

@@ -1,0 +1,38 @@
+.button
+    display: block
+    margin: 0 auto
+    margin-top: 50px
+    width: 150px
+    height: 40px
+    text-transform: uppercase
+    background-color: black
+    border: none
+    border-radius: 8px
+    font-size: 12px
+    font-weight: 700
+    color: white
+    transition: 0.5s all
+    outline: none
+    &:hover
+        cursor: pointer
+        background-color: white
+        color: black
+        border: 1px solid black   
+    &_white
+        background-color: white
+        color: black
+        &:hover
+            cursor: pointer
+            background-color: black
+            color: white
+            border: 1px solid white
+    &_bottom
+        position: absolute
+        bottom: 0
+        left: 50%
+        transform: translateX(-50%)
+        &:hover
+            border: none
+    &_modal
+        margin-top: 10px
+            

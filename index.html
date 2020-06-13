@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Привет! Меня зовут Антон Константинов и я помогу сделать Тебе сайт. Да-да! Именно я помогу Тебе в этом деле! Сайт с нуля, копия с понравившегося сайта, переезд с площадки-конструктора в полноценный сайт."
+		/>
+		<meta
+			name="keywords"
+			content="создать сайт с нуля, заказать сайт, сделать сайт дешево, создать сайт недорого, купить сайт москва, купить сайт, заказать сайт"
+		/>
+		<meta
+			property="og:image"
+			content="https://awesometoxa.ru/img/promo_bg2.jpg"
+		/>
+
+		<title>
+			Создание сайтов | лендингов | web-разработка | Антон Константинов
+		</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			href="https://awesometoxa.ru/favicon.ico"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="css/style.min.css" />
+	</head>
+	<body>
+		<header id="up" class="header">
+			<a href="https://awesometoxa.ru"
+				><img
+					src="./img/logo_black.jpg"
+					alt="логотип"
+					class="header__img"
+			/></a>
+			<img src="./img/logo_white.jpg" class="logo_mobile" alt="логотип" />
+			<nav class="nav">
+				<div class="nav__list">
+					<img
+						class="nav__logo"
+						src="./img/logo_white_mini.jpg"
+						alt="логотип"
+					/>
+					<div class="nav__item"><a href="#about">BIO</a></div>
+					<div class="nav__item"><a href="#products">Skills</a></div>
+					<div class="nav__item">
+						<a href="#portfolio">Portfolio</a>
+					</div>
+					<div class="nav__item">
+						<a href="#contacts">Contacts</a>
+					</div>
+					<img
+						class="nav__logo"
+						src="./img/logo_white_mini.jpg"
+						alt="логотип"
+					/>
+				</div>
+			</nav>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</header>
+
+		<section class="promo">
+			<div class="container">
+				<div class="promo__wrapper">
+					<img
+						class="promo__img"
+						src="./img/promo_bg2.jpg"
+						alt="фото Антон Константинов"
+					/>
+					<div class="promo__header">
+						<div class="promo__descr">
+							<div>меня зовут</div>
+							<h1>Антон Константинов</h1>
+							<div id="last">и я разрабатываю сайты</div>
+						</div>
+						<button data-modal class="button">заказать сайт</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="about">
+			<div class="container">
+				<h2 class="title">Коротко о себе</h2>
+			</div>
+			<div class="about__wrapper">
+				<div class="about__item">
+					<div class="about__item-img">
+						<img src="./img/home.png" alt="дом" />
+					</div>
+					<div class="about__item-descr">
+						<ul class="about__item-list">
+							<li class="about__item-list-article">
+								мне 32 года
+							</li>
+							<li class="about__item-list-article">
+								живу в Москве
+							</li>
+							<li class="about__item-list-article">
+								занимаюсь разработкой web-сайтов
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="about__item">
+					<div class="about__item-img">
+						<img src="./img/work.png" alt="работа" />
+					</div>
+					<div class="about__item-descr">
+						<ul class="about__item-list">
+							<li class="about__item-list-article">
+								до начала 2020 года работал в офисе
+							</li>
+							<li class="about__item-list-article">
+								уволился и сменил область деятельности
+							</li>
+							<li class="about__item-list-article">
+								теперь я тут и делаю сайты
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="about__item">
+					<div class="about__item-img">
+						<img src="./img/hobby.png" alt="хобби" />
+					</div>
+					<div class="about__item-descr">
+						<ul class="about__item-list">
+							<li class="about__item-list-article">
+								обожаю путешествовать
+							</li>
+							<li class="about__item-list-article">
+								<a
+									href="https://www.youtube.com/watch?v=KG1J3V6VcW0"
+									target="_blank"
+									>банджи-джампинг</a
+								>
+							</li>
+							<li class="about__item-list-article">
+								у меня есть
+								<a
+									href="https://www.instagram.com/chester_aby/"
+									target="_blank"
+									>абиссинский кот</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="timer">
+			<div class="container">
+				<div class="timer__wrapper">
+					<div class="timer__item">
+						<div id="days" class="timer__num">151</div>
+						<div class="timer__descr">дней</div>
+					</div>
+					<div class="timer__item">
+						<div id="hours" class="timer__num">23</div>
+						<div class="timer__descr">часов</div>
+					</div>
+					<div class="timer__item">
+						<div id="minutes" class="timer__num">49</div>
+						<div class="timer__descr">минут</div>
+					</div>
+					<div class="timer__item">
+						<div id="seconds" class="timer__num">59</div>
+						<div class="timer__descr">секунд</div>
+					</div>
+				</div>
+				<h2 class="timer__title">осталось до моего Дня Рождения</h2>
+				<button data-modal class="button button_white">
+					Поздравить
+				</button>
+			</div>
+		</section>
+
+		<section id="products" class="products">
+			<div class="container">
+				<h2 class="title title_white">что я могу</h2>
+				<div class="products__wrapper">
+					<div class="tabs">
+						<div class="tab">
+							Создание сайта <br />
+							с нуля
+						</div>
+						<div class="tab">
+							Копирование <br />
+							сайта
+						</div>
+						<div class="tab">
+							Перенос сайта <br />
+							с другой площадки
+						</div>
+						<div class="tab">
+							Сопровождение <br />
+							сайта
+						</div>
+					</div>
+					<div class="tabContent">
+						<div class="tabContent__img">
+							<img
+								src="./img/createsite.jpg"
+								alt="создание сайта с нуля"
+							/>
+						</div>
+						<div class="tabContent__descr">
+							<h3 class="tabContent__title">
+								Создание сайта с нуля
+							</h3>
+							<div class="tabContent__text">
+								<div>
+									Хотите сайт, но не знаете с чего начать? Я
+									помогу Вам!
+								</div>
+								<span
+									>- разработаю с нуля или по Вашему ТЗ сайт и
+									заполню его необходимым контентом</span
+								>
+								<span
+									>- сайт будет быстро открываться на всех
+									устройствах</span
+								>
+								<span
+									>- адаптивная версия позволит сайту
+									выглядеть отлично всегда</span
+								>
+								<span
+									>- администрирование сайта будет лёгким и
+									доступным</span
+								>
+								<span
+									>- помогу с размещением сайта на
+									хостинге</span
+								>
+								<button
+									data-modal
+									class="button button_white button_bottom"
+								>
+									Узнать подробнее
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="tabContent">
+						<div class="tabContent__img">
+							<img
+								src="./img/copysite.jpg"
+								alt="копирование сайт"
+							/>
+						</div>
+						<div class="tabContent__descr">
+							<h3 class="tabContent__title">
+								Копирование понравившегося сайта
+							</h3>
+							<div class="tabContent__text">
+								<div>
+									Понравился сайт и хотите такой же? Легко!
+								</div>
+								<span
+									>- создам копию нужного сайта и заполню его
+									необходимым контентом</span
+								>
+								<span
+									>- подправлю дизайн, добавлю необходимые
+									блоки, если понадобится
+								</span>
+								<span
+									>- сайт будет выглядеть отлично на всех
+									устройствах</span
+								>
+								<span
+									>- в дальнейшем вы сможете легко
+									администрировать сайт</span
+								>
+								<button
+									data-modal
+									class="button button_white button_bottom"
+								>
+									Узнать подробнее
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="tabContent">
+						<div class="tabContent__img">
+							<img
+								src="./img/newhome.jpg"
+								alt="перенос сайта с других площадок"
+							/>
+						</div>
+						<div class="tabContent__descr">
+							<h3 class="tabContent__title">
+								Перенос сайта с других площадок
+							</h3>
+							<div class="tabContent__text">
+								<div>
+									У Вас есть сайт и вы хотите перенести его? Я
+									сделаю это!
+								</div>
+								<span
+									>- перенесу Ваш сайт с сайтов-конструкторов
+									(WIX, Tilda и пр.) на другой хостинг
+								</span>
+								<span>- внесу необходимые изменения </span>
+								<span
+									>- доработаю функционал сайта если
+									потребуется</span
+								>
+								<span
+									>- настрою переадресацию со старой площадки
+									на новый сайт</span
+								>
+								<button
+									data-modal
+									class="button button_white button_bottom"
+								>
+									Узнать подробнее
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="tabContent">
+						<div class="tabContent__img">
+							<img
+								src="./img/support.jpg"
+								alt="поддержка и сопроводжение сайта"
+							/>
+						</div>
+						<div class="tabContent__descr">
+							<h3 class="tabContent__title">
+								Поддержка и сопроводжение Вашего сайта
+							</h3>
+							<div class="tabContent__text">
+								<div>
+									У Вас есть сайт - что дальше? Всё просто!
+								</div>
+								<span
+									>- осуществлю администрирование готового
+									сайта
+								</span>
+								<span>- наполню сайт актуальным контентом</span>
+
+								<span
+									>- добавлю новые страницы на существующий
+									сайт</span
+								>
+								<span
+									>- доработаю функционал сайта если
+									потребуется</span
+								>
+								<button
+									data-modal
+									class="button button_white button_bottom"
+								>
+									Узнать подробнее
+								</button>
+							</div>
+						</div>
+					</div>
+					<button data-modal class="button">Оставить заявку</button>
+				</div>
+				<!-- .products__wrapper_mobile только для мобильной версии -->
+				<div class="products__wrapper_mobile">
+					<div class="products__wrapper_mobile-item">
+						<h2 class="products__wrapper_mobile-title">
+							Создание сайта с нуля
+						</h2>
+						<img
+							src="./img/createsite.jpg"
+							alt="создание сайта с нуля"
+							class="products__wrapper_mobile-img"
+						/>
+						<div class="products__wrapper_mobile-descr">
+							- разработаю с нуля или по Вашему ТЗ сайт и заполню
+							его необходимым контентом
+						</div>
+						<div class="products__wrapper_mobile-descr">
+							- сайт будет быстро открываться на всех устройствах
+						</div>
+						<div class="products__wrapper_mobile-descr">
+							- адаптивная версия позволит сайту выглядеть отлично
+							всегда
+						</div>
+						<div class="products__wrapper_mobile-descr">
+							- администрирование сайта будет лёгким и доступным
+						</div>
+						<div class="products__wrapper_mobile-descr">
+							- помогу с размещением сайта на хостинге
+						</div>
+						<hr />
+					</div>
+					<div class="products__wrapper_mobile-item">
+						<h2 class="products__wrapper_mobile-title">
+							Копирование понравившегося сайта
+						</h2>
+						<img
+							src="./img/copysite.jpg"
+							alt="копирование сайта"
+							class="products__wrapper_mobile-img"
+						/>
+						<div class="products__wrapper_mobile-descr">
+							- создам копию нужного сайта и заполню его
+							необходимым контентом
+						</div>
+						<div class="products__wrapper_mobile-descr">
+							- подправлю дизайн, добавлю необходимые блоки, если
+							понадобится
+						</div>
+						<div class="products__wrapper_mobile-descr">
+							- сайт будет выглядеть отлично на всех устройствах
+						</div>
+						<div class="products__wrapper_mobile-descr">
+							- в дальнейшем вы сможете легко администрировать
+							сайт
+						</div>
+						<hr />
+					</div>
+					<div class="products__wrapper_mobile-item">
+						<h2 class="products__wrapper_mobile-title">
+							Перенос сайта с других площадок
+						</h2>
+						<img
+							src="./img/newhome.jpg"
+							alt="перенос сайта с других сайтов"
+							class="products__wrapper_mobile-img"
+						/>
+						<div class="products__wrapper_mobile-descr">
+							- перенесу Ваш сайт с сайтов-конструкторов (WIX,
+							Tilda и пр.) на другой хостинг
+						</div>
+						<div class="products__wrapper_mobile-descr">
+							- внесу необходимые изменения
+						</div>
+						<div class="products__wrapper_mobile-descr">
+							- доработаю функционал сайта если потребуется
+						</div>
+						<div class="products__wrapper_mobile-descr">
+							- настрою переадресацию со старой площадки на новый
+							сайт
+						</div>
+						<hr />
+					</div>
+					<div class="products__wrapper_mobile-item">
+						<h2 class="products__wrapper_mobile-title">
+							Поддержка и сопроводжение Вашего сайта
+						</h2>
+						<img
+							src="./img/support.jpg"
+							alt="поддержка и сопровождение сайта"
+							class="products__wrapper_mobile-img"
+						/>
+						<div
+							class="products__wrapper_mobile-descr products__wrapper_mobile-descr_last"
+						>
+							- осуществлю администрирование готового сайта
+						</div>
+						<div
+							class="products__wrapper_mobile-descr products__wrapper_mobile-descr_last"
+						>
+							- наполню сайт актуальным контентом
+						</div>
+						<div
+							class="products__wrapper_mobile-descr products__wrapper_mobile-descr_last"
+						>
+							- добавлю новые страницы на существующий сайт
+						</div>
+						<div
+							class="products__wrapper_mobile-descr products__wrapper_mobile-descr_last"
+						>
+							- доработаю функционал сайта если потребуется
+						</div>
+						<hr />
+					</div>
+					<button data-modal class="button">оставить заявку</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="skills">
+			<div class="container">
+				<h2 class="title">на чём пишу</h2>
+				<div class="skills__wrapper">
+					<div class="carousel">
+						<div class="carousel__item">
+							<div class="carousel__title">html 5</div>
+							<img
+								src="./img/html.png"
+								alt="html"
+								class="carousel__img"
+							/>
+							<div class="carousel__descr">
+								<div>чистая семантика разметки</div>
+								<div>огранизованный синтаксис</div>
+								<div>100% валидный код</div>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<div class="carousel__title">css 3</div>
+							<img
+								src="./img/css.png"
+								alt="css"
+								class="carousel__img"
+							/>
+							<div class="carousel__descr">
+								<div>модульность стилей</div>
+								<div>методология БЭМ</div>
+								<div>css анимации</div>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<div class="carousel__title">Java Script</div>
+							<img
+								src="./img/js.png"
+								alt="javascript"
+								class="carousel__img"
+							/>
+							<div class="carousel__descr">
+								<div>последние стандарты</div>
+								<div>чистый код</div>
+								<div>ООП</div>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<div class="carousel__title">gulp</div>
+							<img
+								src="./img/gulp.png"
+								alt="gulp"
+								class="carousel__img"
+							/>
+							<div class="carousel__descr">
+								<div>автоматизированное тестирование</div>
+								<div>оптимизация работы</div>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<div class="carousel__title">sass</div>
+							<img
+								src="./img/sass_text.png"
+								alt="sass"
+								class="carousel__img"
+							/>
+							<div class="carousel__descr">
+								<div>ускорение процесса разработки</div>
+								<div>огранизованность стилей</div>
+								<div>элегантность кода</div>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<div class="carousel__title">react js</div>
+							<img
+								src="./img/react.png"
+								alt="react js"
+								class="carousel__img"
+							/>
+							<div class="carousel__descr">
+								<div>разработка SPA</div>
+								<div>базовые знания</div>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<div class="carousel__title">git</div>
+							<img
+								src="./img/git.png"
+								alt="git"
+								class="carousel__img"
+							/>
+							<div class="carousel__descr">
+								<div>возможность командной работы</div>
+								<div>контроль версий</div>
+							</div>
+						</div>
+						<img
+							src="./img/prev.png"
+							alt="предыдущий слайд"
+							class="carousel__prev"
+						/>
+						<img
+							src="./img/next.png"
+							alt="следущий слайд"
+							class="carousel__next"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="portfolio" class="portfolio">
+			<div class="container">
+				<h2 class="title">портфолио</h2>
+				<div class="portfolio__wrapper">
+					<a
+						href="https://github.com/awesometoxa"
+						target="_blank"
+						title="репозиторий на GitHub"
+						class="portfolio__item"
+					>
+						<div class="portfolio__title">
+							https://github.com/awesometoxa
+						</div>
+						<img
+							src="./img/github.png"
+							alt="репозиторий на github"
+						/>
+						<div class="portfolio__descr">
+							мой репозиторий на GitHub
+						</div>
+					</a>
+
+					<a
+						href="https://citadel-ca.ru"
+						target="_blank"
+						class="portfolio__item"
+					>
+						<div class="portfolio__title">
+							https://citadel-ca.ru
+						</div>
+						<img src="./img/citadel.jpg" alt="citadel-ca.ru" />
+						<div class="portfolio__descr">
+							производство и монтаж ограждений
+						</div>
+					</a>
+
+					<a
+						href="http://chester.awesometoxa.ru"
+						target="_blank"
+						class="portfolio__item"
+					>
+						<div class="portfolio__title">
+							http://chester.awesometoxa.ru
+						</div>
+						<img src="./img/chester.jpeg" alt="сайт кота" />
+						<div class="portfolio__descr">
+							мой первый сайт про кота
+						</div>
+					</a>
+
+					<a
+						href="https://awesometoxa.ru"
+						target="_blank"
+						class="portfolio__item"
+					>
+						<div class="portfolio__title">
+							https://awesometoxa.ru
+						</div>
+						<img src="./img/logo_black_mini.jpg" alt="мой сайт" />
+						<div class="portfolio__descr">
+							мой сайт, его я тоже сделал сам
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="contacts" class="contacts">
+			<div class="container">
+				<h2 class="title title_white">Контакты</h2>
+				<div class="subtitle subtitle_white">
+					Остались вопросы? <br />
+					Напишите мне в форме обратной связи или свяжитесь со мной
+					любым удобным способом!
+				</div>
+			</div>
+			<div class="contacts__wrapper">
+				<form action="mail.php" method="POST" class="contact-form">
+					<div class="contact-form-title">оставить сообщение</div>
+
+					<label>Ваше имя:</label>
+					<input type="text" name="user_name" />
+					<label>Ваш телефон:</label>
+					<input type="tel" name="user_phone" required />
+					<label>Ваш e-mail:</label>
+					<input type="email" name="user_email" required />
+					<label>Сообщение:</label>
+					<textarea name="textarea" cols="30" rows="10"></textarea>
+
+					<button class="button">Отправить</button>
+				</form>
+			</div>
+		</section>
+
+		<div class="social">
+			<div class="container">
+				<div class="social__wrapper">
+					<a
+						href="https://wa.me/79680286669"
+						class="social__link"
+						target="_blank"
+						><img src="./img/whatsapp.png" alt="whats app"
+					/></a>
+					<a
+						href="https://www.vk.com/awesometoxa/"
+						class="social__link"
+						target="_blank"
+						><img src="./img/vk.png" alt="вконтакте"
+					/></a>
+					<a href="tel:+79680286669" class="social__link"
+						><img src="./img/phone.png" alt="телефон"
+					/></a>
+					<a
+						href="https://www.instagram.com/awesometoxa/"
+						class="social__link"
+						target="_blank"
+						><img src="./img/instagram.png" alt="инстаграмм"
+					/></a>
+					<a
+						href="https://www.github.com/awesometoxa/"
+						class="social__link"
+						target="_blank"
+						><img src="./img/github.png" alt="github"
+					/></a>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__title">
+					Все права прописаны в Конституции Российской Федерации
+				</div>
+				<hr />
+				<div class="footer__subtitle">Москва</div>
+				<div class="footer__date">2020</div>
+			</div>
+		</footer>
+
+		<!-- модальное окно -->
+		<div class="modal">
+			<form
+				action="mail.php"
+				method="POST"
+				class="contact-form modal-form"
+			>
+				<span id="close"> &times;</span>
+				<div class="contact-form-title">оставить сообщение</div>
+
+				<label>Ваше имя:</label>
+				<input type="text" name="user_name" />
+				<label>Ваш телефон:</label>
+				<input type="tel" name="user_phone" required />
+				<label>Ваш e-mail:</label>
+				<input type="email" name="user_email" required />
+				<label>Cообщение:</label>
+				<textarea name="textarea" cols="30" rows="10"></textarea>
+
+				<button type="submit" class="button button_modal">
+					Отправить
+				</button>
+			</form>
+		</div>
+
+		<!-- Стрелка возвращения вверх -->
+		<a href="#up" id="pageUp" class="pageup"
+			><img src="./img/up.png" alt="up"
+		/></a>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
